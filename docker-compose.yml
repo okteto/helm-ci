@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  helm-ci:
+    image: helm-ci
+    build:
+      context: .
